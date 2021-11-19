@@ -188,7 +188,7 @@ public class StartGame {
         }
 
         System.out.println("Após está rodada o Dragão ficou com " + dragao.getPontosDeVida() + " pontos de vida");
-        System.out.println(jogador1.getNome() + " ficou com " + jogador1.getPersonagem().getPontosDeVida() + " pontos de vida");
+        System.out.println(jogador1.getNome() + " ficou com " + jogador1.getPersonagem().getPontosDeVida() + " pontos de vida!");
 
         if (jogador2.getPersonagem() != null) {
           if(jogador2.getPersonagem().getPontosDeVida() < 0){
@@ -196,7 +196,7 @@ public class StartGame {
           }else {
             vidaTotal += jogador2.getPersonagem().getPontosDeVida();
           }
-          System.out.println(jogador2.getNome() + " ficou com " + jogador2.getPersonagem().getPontosDeVida() + " pontos de vida");
+          System.out.println(jogador2.getNome() + " ficou com " + jogador2.getPersonagem().getPontosDeVida() + " pontos de vida!");
         }
 
         if (jogador3.getPersonagem() != null) {
@@ -205,7 +205,7 @@ public class StartGame {
           }else {
             vidaTotal += jogador3.getPersonagem().getPontosDeVida();
           }
-          System.out.println(jogador3.getNome() + " ficou com " + jogador3.getPersonagem().getPontosDeVida() + " pontos de vida");
+          System.out.println(jogador3.getNome() + " ficou com " + jogador3.getPersonagem().getPontosDeVida() + " pontos de vida!");
         }
 
         if (vidaTotal <= 0) {
