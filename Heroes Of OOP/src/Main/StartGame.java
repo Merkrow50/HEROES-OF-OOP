@@ -71,6 +71,14 @@ public class StartGame {
     iniciar = scanner.next();
     menu.createPerson(jogador1, iniciar);
 
+    if(jogador1.getPersonagem() == null && Objects.equals(iniciar,"iniciar")){
+      System.out.println("Para iniciar deve haver no mínimo um personagem criado");
+      System.out.println("Deseja criar um personagem digite criar");
+      System.out.println("Deseja sair do jogo digite sair");
+      iniciar = scanner.next();
+      menu.createPerson(jogador1, iniciar);
+    }
+
     if (jogador2.getPersonagem() == null) {
       System.out.println("Deseja criar outro personagem?");
       System.out.println("Digite criar para criar outro personagem.");
