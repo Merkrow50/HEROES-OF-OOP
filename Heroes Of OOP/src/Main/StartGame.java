@@ -1,17 +1,7 @@
 package Main;
 
-import ClasseArma.ArcoLongo;
-import ClasseArma.Arma;
-import ClasseArma.Balestra;
-import ClasseArma.Cajado;
-import ClasseArma.Espada;
-import ClasseArma.Machado;
-import ClasseArma.Varinha;
 import ClasseJogador.Jogador;
-import ClassePersonagem.Arqueiro;
 import ClassePersonagem.Dragao;
-import ClassePersonagem.Guerreiro;
-import ClassePersonagem.Mago;
 import ClassePersonagem.Personagem;
 import java.util.Objects;
 import java.util.Random;
@@ -23,20 +13,8 @@ public class StartGame {
 
     Scanner scanner = new Scanner(System.in);
     String iniciar;
-    String personagem = null;
-    int arma;
 
-    Personagem mago = new Mago();
-    Personagem arqueiro = new Arqueiro();
-    Personagem guerreiro = new Guerreiro();
     Personagem dragao = new Dragao();
-
-    Arma espada = new Espada();
-    Arma varinha = new Varinha();
-    Arma arcoLongo = new ArcoLongo();
-    Arma balestra = new Balestra();
-    Arma machado = new Machado();
-    Arma cajado = new Cajado();
 
     Jogador jogador1 = new Jogador(null, null);
     Jogador jogador2 = new Jogador(null, null);

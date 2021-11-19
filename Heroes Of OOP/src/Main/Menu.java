@@ -140,19 +140,11 @@ public class Menu {
     Personagem mago = new Mago();
     Personagem arqueiro = new Arqueiro();
     Personagem guerreiro = new Guerreiro();
-    Personagem dragao = new Dragao();
 
     String nome;
     String personagem;
 
     int arma;
-
-    Arma espada = new Espada();
-    Arma varinha = new Varinha();
-    Arma arcoLongo = new ArcoLongo();
-    Arma balestra = new Balestra();
-    Arma machado = new Machado();
-    Arma cajado = new Cajado();
 
     if (Objects.equals(iniciar, "criar")) { // TRUE
       System.out.println("Digite qual o Nome do seu personagem:");
